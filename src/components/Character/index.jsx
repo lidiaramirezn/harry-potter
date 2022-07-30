@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { CardContainer, CardInformation, CardName, CardStatus, Figure, Image } from './styles'
 
 export const Character = ({ image, name, species }) => {
@@ -9,7 +10,7 @@ export const Character = ({ image, name, species }) => {
       </Figure>
       <CardInformation>
         <CardName>{ name }</CardName>
-        <CardStatus>• { species }</CardStatus>
+        <CardStatus>• <FormattedMessage id={`${species}`} /> { }</CardStatus>
       </CardInformation>
     </CardContainer>
   )

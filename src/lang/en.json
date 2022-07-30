@@ -1,4 +1,6 @@
 {
   "title": "Harry Potter Characters",
-  "Human": "Human"
+  "human": "Human",
+  "half-giant": "Half giant",
+  "werewolf": "Werewolf"
 }

@@ -3,7 +3,7 @@ export const loadCharacters = async() => {
 
   const response = await fetch(urlAPI);
   const results = await response.json();
-  // console.log(results)
+  console.log(results)
 
   const data = results.map( result => ({
     name: result.name,
