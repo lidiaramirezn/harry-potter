@@ -1,5 +1,5 @@
 export const loadCharacters = async() => {
-  const urlAPI = `http://hp-api.herokuapp.com/api/characters`;
+  const urlAPI = `https://hp-api.herokuapp.com/api/characters`;
 
   const response = await fetch(urlAPI);
   const results = await response.json();
